@@ -259,6 +259,13 @@ func (v Val[T]) IsUnset() bool {
 	return v.state == StateUnset
 }
 
+// IsZero returns true if Val is not set.
+//
+// This method is identical to IsUnset but is required to implement Bun's isZeroer interface.
+func (v Val[T]) IsZero() bool {
+	return v.IsUnset()
+}
+
 // State retrieves the internal state, mostly useful for testing.
 func (v Val[T]) State() state {
 	return v.state
