@@ -1,4 +1,4 @@
-module github.com/aarondl/opt
+module github.com/VenomPCPL/opt
 
 go 1.18
 

@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aarondl/opt"
-	"github.com/aarondl/opt/null"
-	"github.com/aarondl/opt/omit"
+	"github.com/VenomPCPL/opt"
+	"github.com/VenomPCPL/opt/null"
+	"github.com/VenomPCPL/opt/omit"
 )
 
 func TestConstruction(t *testing.T) {
